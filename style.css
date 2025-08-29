@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#menu-superior{
+    background-image: url('./Imagens/fundo.svg');
+}
+
+#logo{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+#titulo-menusuperior{
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 50px;;
+}
+
+#texto-menusuperior{
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 25px;
+    padding-bottom: 100px;;   
+}
+
+#menu-informacional{
+    background-color: #EAECE5;
+    display: grid;
+     grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-video{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#secao-carrosel{
+    background-color: #247BA0;
+    padding: 100px;
+    text-align: center;
+}
+
+#titulo-carrosel{
+    color: #EAECE5;
+    font-size: 32px;
+    margin-bottom: 75px;
+}
+
+#cards-carrosel{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    margin-left: 25px;
+}
+
+#bruna{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.setas{
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+#seta-direita:hover{
+    transform: translateX(10px);
+    transition: 0.5s;
+}
+
+#seta-esquerda:hover{
+    transform: translateX(-10px);
+    transition: 0.5s;
+}
+
+#secao-formulario{
+    padding: 50px;
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin-bottom: 30px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    background-color: #EAECE5;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #247BA0;
+    color: #EAECE5;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #56c4df;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
